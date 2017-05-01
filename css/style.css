@@ -71,6 +71,7 @@ p {
   height: 100%;
   width: 100%;
 }
+
 .header {
   margin-top: 6%;
   margin-bottom: 4%;
@@ -122,6 +123,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
