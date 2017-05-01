@@ -28,15 +28,18 @@ nav .brand-logo {
 .nav-wrapper {
   padding: 0 50px;
 }
+
 h5 {
 line-height: 2rem;
 }
+
 p {
   line-height: 2rem;
   color: #0b3954;
   font-size: 1.3rem;
   margin: auto;
 }
+
 .blu {
   line-height: 2rem;
   color: #0b3954;
@@ -63,9 +66,6 @@ p {
   color: rgba(255,255,255,.9);
  
 }
-.parallax-container .section {
-    width: 100%;
-}
 
 .section-intro {
   height: 100%;
@@ -73,18 +73,19 @@ p {
 }
 .header {
   margin-top: 6%;
-	margin-bottom: 6%;
-	font-size: 3.8rem;
+  margin-bottom: 4%;
+  font-size: 3.5rem;
   position: relative;
   z-index: 0;
 }
 
 .header-subtitle {
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   font-size: 1.8em;
   position: relative;
   z-index: 0;
 }
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -98,22 +99,22 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
-  }
+  	}
   .nav-wrapper {
   padding: 0 10px;
+	}
 }
-
 .section-registrazione {
-	height: 100%;
+  height: 100%;
   width: 100%;
 }
 
-}
-.col-servizio{
+.col-servizio {
   margin-top: 60px;
   margin-bottom: 60px;
 }
-.col-informazioni{
+
+.col-raccontaci {
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -128,7 +129,8 @@ p {
 .btn-registrazione {
   width: 100%;
 }
-.btn-informazioni {
+
+.btn-raccontaci {
   width: 100%;
   margin-top: 20px;
 }
