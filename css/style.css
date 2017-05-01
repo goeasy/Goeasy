@@ -1,0 +1,147 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  font-family: 'Days one',cursive;
+}
+
+.div1 {
+  width: 3000px;
+  height: 3000px;
+  background-color: black;
+  opacity: 0.45;
+  position: absolute;
+  z-index: 0;
+  }
+
+nav ul a,
+nav .brand-logo {
+  color: #0b3954;
+}
+nav .brand-logo {
+  font-family: 'Righteous', cursive;
+}
+.nav-wrapper {
+  padding: 0 50px;
+}
+h5 {
+line-height: 2rem;
+}
+p {
+  line-height: 2rem;
+  color: #0b3954;
+  font-size: 1.3rem;
+  margin: auto;
+}
+.blu {
+  line-height: 2rem;
+  color: #0b3954;
+  font-size: 1.3rem;
+  margin: auto;
+}
+.redtext {
+  color: #b71c1c;
+  font-size: 1.3rem;
+ 
+}
+.button-collapse {
+  color: #0b3954;
+}
+
+.parallax {
+  position: absolute;
+  z-index: -1;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+ 
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  margin-top: 6%;
+	margin-bottom: 6%;
+	font-size: 3.8rem;
+  position: relative;
+  z-index: 0;
+}
+
+.header-subtitle {
+  margin-bottom: 5%;
+  font-size: 1.8em;
+  position: relative;
+  z-index: 0;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .nav-wrapper {
+  padding: 0 10px;
+}
+
+.section-registrazione {
+	height: 100%;
+  width: 100%;
+}
+
+}
+.col-servizio{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.col-informazioni{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.btn-registrazione {
+  width: 100%;
+}
+.btn-informazioni {
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #0b3954;
+}
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
+.social-icon:hover {
+  color: #b71c1c;
+}
